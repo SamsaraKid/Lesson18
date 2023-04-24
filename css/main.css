@@ -1,0 +1,36 @@
+.d1{
+    background-color: darkred;
+}
+
+.d2{
+    background-color: green;
+}
+
+.d3{
+    background-color: blue;
+    align-self: end;
+}
+
+.d4{
+    background-color: darkorange;
+    align-self: start;
+}
+
+.f1{
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main{
+    display: flex;
+    border: 2px solid;
+    flex-direction: column;
+    width: 450px;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
